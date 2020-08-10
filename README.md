@@ -1,4 +1,4 @@
-# gr-adsbTrasnmit
+# INSTALL  gr-adsbTrasnmit
 
 
 ```
@@ -12,3 +12,10 @@ make
 sudo make install
 sudo ldconfig
 ```
+
+# REMOVE
+
+cd gr-adsbTransmit/build
+make uninstall
+cd ~ 
+rm -r gr-adsbTransmit
