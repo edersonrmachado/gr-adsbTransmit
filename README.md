@@ -1,7 +1,6 @@
 # INSTALL  gr-adsbTrasnmit
 
-
-```
+```bash
 git init
 git clone https://github.com/edersonrmachado/gr-adsbTransmit  
 cd gr-adsbTransmit/  
@@ -15,7 +14,9 @@ sudo ldconfig
 
 # REMOVE
 
+```bash
 cd gr-adsbTransmit/build
 make uninstall
-cd ~ 
+cd ~
 rm -r gr-adsbTransmit
+```
