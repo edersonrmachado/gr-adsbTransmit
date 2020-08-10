@@ -1,0 +1,17 @@
+<block>
+  <name>ADSB Single Message Generator</name>
+  <key>ADSB_adsbSingleMsgGen_b</key>
+  <category>ADSB</category>
+  <import>import ADSB</import>
+  <make>ADSB.adsbSingleMsgGen_b($fixedMsg)</make>
+    <callback>set_fixedMsg($fixedMsg)</callback>
+  <param>
+    <name>Fixedmsg</name>
+    <key>fixedMsg</key>
+    <type>int</type>
+  </param>
+  <source>
+    <name>out</name>
+    <type>byte</type>
+  </source>
+</block>

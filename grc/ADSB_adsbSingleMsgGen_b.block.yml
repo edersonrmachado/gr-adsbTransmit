@@ -1,0 +1,15 @@
+id: ADSB_adsbSingleMsgGen_b
+label: adsbSingleMsgGen b
+category: '[Adsb]'
+templates:
+  imports: import ADSB
+  make: ADSB.adsbSingleMsgGen_b(${fixedMsg})
+parameters:
+- id: fixedMsg
+  label: Fixedmsg
+  dtype: int
+outputs:
+- label: out
+  domain: stream
+  dtype: byte
+file_format: 1
