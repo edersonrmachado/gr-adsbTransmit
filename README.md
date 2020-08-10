@@ -19,7 +19,7 @@ cd gr-adsbTransmit/examples
 gnuradio-companion adsbExample37.grc
 ```
 
-# REMOVE
+## REMOVE
 
 ```bash
 cd gr-adsbTransmit/build
