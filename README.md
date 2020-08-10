@@ -1,4 +1,4 @@
-# INSTALL  gr-adsbTrasnmit
+## INSTALL  gr-adsbTrasnmit
 
 ```bash
 git init
@@ -10,6 +10,13 @@ cmake ../  # or cmake -DCMAKE_INSTALL_PREFIX=<path_to_install> ../
 make
 sudo make install
 sudo ldconfig
+```
+
+## OPEN EXAMPLE
+
+```bash
+cd gr-adsbTransmit/examples
+gnuradio-companion adsbExample37.grc
 ```
 
 # REMOVE
