@@ -1,4 +1,9 @@
-## INSTALL  gr-adsbTrasnmit
+# gr-adsbTrasnmit 
+
+This GNURadio block was developed  in order to test airplane ADS-B packet transmission in SDR devices, for simulation purposes. It continuously transmits two dummy airplanes packets locate in Italy and Philippines and shows, in terminal, packet build steps. 
+
+## INSTALL 
+
 
 ```bash
 git init
