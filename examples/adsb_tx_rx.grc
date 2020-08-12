@@ -90,18 +90,26 @@
     </param>
   </block>
   <block>
-    <key>variable</key>
+    <key>variable_qtgui_entry</key>
     <param>
       <key>comment</key>
       <value></value>
     </param>
     <param>
+      <key>value</key>
+      <value>0.01</value>
+    </param>
+    <param>
       <key>_enabled</key>
-      <value>1</value>
+      <value>0</value>
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(232, 444)</value>
+      <value>(728, 20)</value>
+    </param>
+    <param>
+      <key>gui_hint</key>
+      <value>0,1,1,1</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -109,11 +117,15 @@
     </param>
     <param>
       <key>id</key>
-      <value>delay_in_bytes</value>
+      <value>d_threshold</value>
     </param>
     <param>
-      <key>value</key>
-      <value>3000000</value>
+      <key>label</key>
+      <value>Detection Threshold</value>
+    </param>
+    <param>
+      <key>type</key>
+      <value>real</value>
     </param>
   </block>
   <block>
@@ -128,7 +140,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(176, 12)</value>
+      <value>(216, 12)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -155,7 +167,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(264, 12)</value>
+      <value>(312, 12)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -168,192 +180,6 @@
     <param>
       <key>value</key>
       <value>2e6</value>
-    </param>
-  </block>
-  <block>
-    <key>variable</key>
-    <param>
-      <key>comment</key>
-      <value></value>
-    </param>
-    <param>
-      <key>_enabled</key>
-      <value>1</value>
-    </param>
-    <param>
-      <key>_coordinate</key>
-      <value>(728, 12)</value>
-    </param>
-    <param>
-      <key>_rotation</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>id</key>
-      <value>gain</value>
-    </param>
-    <param>
-      <key>value</key>
-      <value>100</value>
-    </param>
-  </block>
-  <block>
-    <key>variable_qtgui_entry</key>
-    <param>
-      <key>comment</key>
-      <value></value>
-    </param>
-    <param>
-      <key>value</key>
-      <value>100</value>
-    </param>
-    <param>
-      <key>_enabled</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>_coordinate</key>
-      <value>(336, 12)</value>
-    </param>
-    <param>
-      <key>gui_hint</key>
-      <value>0,0,1,1</value>
-    </param>
-    <param>
-      <key>_rotation</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>id</key>
-      <value>gaini</value>
-    </param>
-    <param>
-      <key>label</key>
-      <value>Gain (dB)</value>
-    </param>
-    <param>
-      <key>type</key>
-      <value>real</value>
-    </param>
-  </block>
-  <block>
-    <key>variable</key>
-    <param>
-      <key>comment</key>
-      <value></value>
-    </param>
-    <param>
-      <key>_enabled</key>
-      <value>1</value>
-    </param>
-    <param>
-      <key>_coordinate</key>
-      <value>(624, 12)</value>
-    </param>
-    <param>
-      <key>_rotation</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>id</key>
-      <value>threshold</value>
-    </param>
-    <param>
-      <key>value</key>
-      <value>0.025</value>
-    </param>
-  </block>
-  <block>
-    <key>variable_qtgui_entry</key>
-    <param>
-      <key>comment</key>
-      <value></value>
-    </param>
-    <param>
-      <key>value</key>
-      <value>0.025</value>
-    </param>
-    <param>
-      <key>_enabled</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>_coordinate</key>
-      <value>(456, 12)</value>
-    </param>
-    <param>
-      <key>gui_hint</key>
-      <value>0,1,1,1</value>
-    </param>
-    <param>
-      <key>_rotation</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>id</key>
-      <value>thresholdi</value>
-    </param>
-    <param>
-      <key>label</key>
-      <value>Detection Threshold</value>
-    </param>
-    <param>
-      <key>type</key>
-      <value>real</value>
-    </param>
-  </block>
-  <block>
-    <key>variable</key>
-    <param>
-      <key>comment</key>
-      <value></value>
-    </param>
-    <param>
-      <key>_enabled</key>
-      <value>1</value>
-    </param>
-    <param>
-      <key>_coordinate</key>
-      <value>(16, 444)</value>
-    </param>
-    <param>
-      <key>_rotation</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>id</key>
-      <value>tx_gain</value>
-    </param>
-    <param>
-      <key>value</key>
-      <value>0.05</value>
-    </param>
-  </block>
-  <block>
-    <key>variable</key>
-    <param>
-      <key>comment</key>
-      <value></value>
-    </param>
-    <param>
-      <key>_enabled</key>
-      <value>1</value>
-    </param>
-    <param>
-      <key>_coordinate</key>
-      <value>(112, 444)</value>
-    </param>
-    <param>
-      <key>_rotation</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>id</key>
-      <value>usrp_tx_gain</value>
-    </param>
-    <param>
-      <key>value</key>
-      <value>0</value>
     </param>
   </block>
   <block>
@@ -380,7 +206,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(16, 532)</value>
+      <value>(16, 580)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -397,53 +223,6 @@
     <param>
       <key>minoutbuf</key>
       <value>0</value>
-    </param>
-  </block>
-  <block>
-    <key>parameter</key>
-    <param>
-      <key>alias</key>
-      <value></value>
-    </param>
-    <param>
-      <key>comment</key>
-      <value></value>
-    </param>
-    <param>
-      <key>_enabled</key>
-      <value>True</value>
-    </param>
-    <param>
-      <key>_coordinate</key>
-      <value>(912, 20)</value>
-    </param>
-    <param>
-      <key>_rotation</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>id</key>
-      <value>address0</value>
-    </param>
-    <param>
-      <key>label</key>
-      <value>IP Address, Dev 0</value>
-    </param>
-    <param>
-      <key>short_id</key>
-      <value></value>
-    </param>
-    <param>
-      <key>hide</key>
-      <value>none</value>
-    </param>
-    <param>
-      <key>type</key>
-      <value>string</value>
-    </param>
-    <param>
-      <key>value</key>
-      <value>addr=192.168.1.100</value>
     </param>
   </block>
   <block>
@@ -517,7 +296,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(288, 248)</value>
+      <value>(288, 328)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -564,7 +343,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(64, 252)</value>
+      <value>(56, 332)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -611,7 +390,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(304, 380)</value>
+      <value>(320, 436)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -658,7 +437,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(144, 988)</value>
+      <value>(184, 756)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -701,7 +480,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(256, 144)</value>
+      <value>(256, 176)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -718,61 +497,6 @@
     <param>
       <key>minoutbuf</key>
       <value>0</value>
-    </param>
-    <param>
-      <key>vlen</key>
-      <value>1</value>
-    </param>
-  </block>
-  <block>
-    <key>blocks_delay</key>
-    <param>
-      <key>alias</key>
-      <value></value>
-    </param>
-    <param>
-      <key>comment</key>
-      <value></value>
-    </param>
-    <param>
-      <key>affinity</key>
-      <value></value>
-    </param>
-    <param>
-      <key>delay</key>
-      <value>delay_in_bytes</value>
-    </param>
-    <param>
-      <key>_enabled</key>
-      <value>True</value>
-    </param>
-    <param>
-      <key>_coordinate</key>
-      <value>(144, 724)</value>
-    </param>
-    <param>
-      <key>_rotation</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>id</key>
-      <value>blocks_delay_0</value>
-    </param>
-    <param>
-      <key>maxoutbuf</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>minoutbuf</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>num_ports</key>
-      <value>1</value>
-    </param>
-    <param>
-      <key>type</key>
-      <value>byte</value>
     </param>
     <param>
       <key>vlen</key>
@@ -799,7 +523,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(368, 904)</value>
+      <value>(384, 728)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -834,7 +558,7 @@
     </param>
     <param>
       <key>const</key>
-      <value>tx_gain</value>
+      <value>tx_amp</value>
     </param>
     <param>
       <key>affinity</key>
@@ -846,7 +570,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(712, 660)</value>
+      <value>(848, 740)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -855,57 +579,6 @@
     <param>
       <key>id</key>
       <value>blocks_multiply_const_vxx_0</value>
-    </param>
-    <param>
-      <key>type</key>
-      <value>complex</value>
-    </param>
-    <param>
-      <key>maxoutbuf</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>minoutbuf</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>vlen</key>
-      <value>1</value>
-    </param>
-  </block>
-  <block>
-    <key>blocks_multiply_const_vxx</key>
-    <param>
-      <key>alias</key>
-      <value></value>
-    </param>
-    <param>
-      <key>comment</key>
-      <value></value>
-    </param>
-    <param>
-      <key>const</key>
-      <value>1</value>
-    </param>
-    <param>
-      <key>affinity</key>
-      <value></value>
-    </param>
-    <param>
-      <key>_enabled</key>
-      <value>1</value>
-    </param>
-    <param>
-      <key>_coordinate</key>
-      <value>(584, 916)</value>
-    </param>
-    <param>
-      <key>_rotation</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>id</key>
-      <value>blocks_multiply_const_vxx_0_0</value>
     </param>
     <param>
       <key>type</key>
@@ -948,7 +621,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(688, 320)</value>
+      <value>(632, 336)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -991,7 +664,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(104, 652)</value>
+      <value>(288, 580)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -1046,7 +719,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(152, 848)</value>
+      <value>(456, 584)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -1085,7 +758,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(400, 644)</value>
+      <value>(592, 724)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -1152,7 +825,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(504, 348)</value>
+      <value>(632, 404)</value>
     </param>
     <param>
       <key>gui_hint</key>
@@ -1484,6 +1157,100 @@
     </param>
   </block>
   <block>
+    <key>parameter</key>
+    <param>
+      <key>alias</key>
+      <value></value>
+    </param>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(952, 12)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>rx_address</value>
+    </param>
+    <param>
+      <key>label</key>
+      <value></value>
+    </param>
+    <param>
+      <key>short_id</key>
+      <value></value>
+    </param>
+    <param>
+      <key>hide</key>
+      <value>none</value>
+    </param>
+    <param>
+      <key>type</key>
+      <value>string</value>
+    </param>
+    <param>
+      <key>value</key>
+      <value>addr=192.168.1.100</value>
+    </param>
+  </block>
+  <block>
+    <key>parameter</key>
+    <param>
+      <key>alias</key>
+      <value></value>
+    </param>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(488, 12)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>rx_gain</value>
+    </param>
+    <param>
+      <key>label</key>
+      <value>dB</value>
+    </param>
+    <param>
+      <key>short_id</key>
+      <value></value>
+    </param>
+    <param>
+      <key>hide</key>
+      <value>none</value>
+    </param>
+    <param>
+      <key>type</key>
+      <value>eng_float</value>
+    </param>
+    <param>
+      <key>value</key>
+      <value>35</value>
+    </param>
+  </block>
+  <block>
     <key>sqlite_sink</key>
     <param>
       <key>alias</key>
@@ -1531,6 +1298,194 @@
     </param>
   </block>
   <block>
+    <key>parameter</key>
+    <param>
+      <key>alias</key>
+      <value></value>
+    </param>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(392, 12)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>threshold</value>
+    </param>
+    <param>
+      <key>label</key>
+      <value>Volts</value>
+    </param>
+    <param>
+      <key>short_id</key>
+      <value></value>
+    </param>
+    <param>
+      <key>hide</key>
+      <value>none</value>
+    </param>
+    <param>
+      <key>type</key>
+      <value>eng_float</value>
+    </param>
+    <param>
+      <key>value</key>
+      <value>0.01</value>
+    </param>
+  </block>
+  <block>
+    <key>parameter</key>
+    <param>
+      <key>alias</key>
+      <value></value>
+    </param>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(1144, 12)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>tx_address</value>
+    </param>
+    <param>
+      <key>label</key>
+      <value></value>
+    </param>
+    <param>
+      <key>short_id</key>
+      <value></value>
+    </param>
+    <param>
+      <key>hide</key>
+      <value>none</value>
+    </param>
+    <param>
+      <key>type</key>
+      <value>string</value>
+    </param>
+    <param>
+      <key>value</key>
+      <value>addr=192.168.1.100</value>
+    </param>
+  </block>
+  <block>
+    <key>parameter</key>
+    <param>
+      <key>alias</key>
+      <value></value>
+    </param>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(856, 372)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>tx_amp</value>
+    </param>
+    <param>
+      <key>label</key>
+      <value>Volts</value>
+    </param>
+    <param>
+      <key>short_id</key>
+      <value></value>
+    </param>
+    <param>
+      <key>hide</key>
+      <value>none</value>
+    </param>
+    <param>
+      <key>type</key>
+      <value>eng_float</value>
+    </param>
+    <param>
+      <key>value</key>
+      <value>0.03</value>
+    </param>
+  </block>
+  <block>
+    <key>parameter</key>
+    <param>
+      <key>alias</key>
+      <value></value>
+    </param>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(584, 12)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>tx_gain</value>
+    </param>
+    <param>
+      <key>label</key>
+      <value>dB</value>
+    </param>
+    <param>
+      <key>short_id</key>
+      <value></value>
+    </param>
+    <param>
+      <key>hide</key>
+      <value>none</value>
+    </param>
+    <param>
+      <key>type</key>
+      <value>eng_float</value>
+    </param>
+    <param>
+      <key>value</key>
+      <value>5</value>
+    </param>
+  </block>
+  <block>
     <key>uhd_usrp_sink</key>
     <param>
       <key>alias</key>
@@ -1554,7 +1509,7 @@
     </param>
     <param>
       <key>gain0</key>
-      <value>usrp_tx_gain</value>
+      <value>tx_gain</value>
     </param>
     <param>
       <key>ant10</key>
@@ -2190,7 +2145,7 @@
     </param>
     <param>
       <key>dev_addr</key>
-      <value>address0</value>
+      <value>rx_address</value>
     </param>
     <param>
       <key>dev_args</key>
@@ -2202,7 +2157,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(920, 812)</value>
+      <value>(1040, 684)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -2385,7 +2340,7 @@
     </param>
     <param>
       <key>gain0</key>
-      <value>gain</value>
+      <value>rx_gain</value>
     </param>
     <param>
       <key>lo_export0</key>
@@ -3525,7 +3480,7 @@
     </param>
     <param>
       <key>dev_addr</key>
-      <value>address0</value>
+      <value>rx_address</value>
     </param>
     <param>
       <key>dev_args</key>
@@ -3537,7 +3492,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(16, 132)</value>
+      <value>(16, 140)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -3716,7 +3671,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(936, 220)</value>
+      <value>(872, 220)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -3792,14 +3747,8 @@
     <sink_key>0</sink_key>
   </connection>
   <connection>
-    <source_block_id>blocks_delay_0</source_block_id>
-    <sink_block_id>blocks_uchar_to_float_0</sink_block_id>
-    <source_key>0</source_key>
-    <sink_key>0</sink_key>
-  </connection>
-  <connection>
     <source_block_id>blocks_float_to_complex_0</source_block_id>
-    <sink_block_id>blocks_multiply_const_vxx_0_0</sink_block_id>
+    <sink_block_id>channels_iqbal_gen_0_1</sink_block_id>
     <source_key>0</source_key>
     <sink_key>0</sink_key>
   </connection>
@@ -3810,14 +3759,8 @@
     <sink_key>0</sink_key>
   </connection>
   <connection>
-    <source_block_id>blocks_multiply_const_vxx_0_0</source_block_id>
-    <sink_block_id>channels_iqbal_gen_0_1</sink_block_id>
-    <source_key>0</source_key>
-    <sink_key>0</sink_key>
-  </connection>
-  <connection>
     <source_block_id>blocks_throttle_0_0_0</source_block_id>
-    <sink_block_id>blocks_delay_0</sink_block_id>
+    <sink_block_id>blocks_uchar_to_float_0</sink_block_id>
     <source_key>0</source_key>
     <sink_key>0</sink_key>
   </connection>
